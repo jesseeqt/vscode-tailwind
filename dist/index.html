@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header bg-[#2c2c32] py-4">
+        <div class="container">
+            <div class="header__wrapper mx-[1rem] text-white flex items-center justify-between">
+                <div class="header__logo flex gap-5 items-center">
+                    <img src="../img/header-logo.png" alt="" class="h-[1.7rem] w-[1.7rem]">
+                    <h1>Visual Studio Code</h1>
+                </div>
+                <nav class="header__nav">
+                    <ul>
+                        <li class="py-[1rem] pl-[1rem]"><a href="">Docs</a></li>
+                        <li class="py-[1rem] pl-[1rem]"><a href="">Updates</a></li>
+                        <li class="py-[1rem] pl-[1rem]"><a href="">Blog</a></li>
+                        <li class="py-[1rem] pl-[1rem]"><a href="">API</a></li>
+                        <li class="py-[1rem] pl-[1rem]"><a href="">Extensions</a></li>
+                        <li class="py-[1rem] pl-[1rem]"><a href="">FAQ</a></li>
+                        <li class="py-[1rem] pl-[1rem]"><a href="">Learn</a></li>
+                        <li class="py-[1rem] pl-[1rem]"><a href="">Search</a></li>
+                        <li class="py-[1rem] pl-[1rem] bg-[#0066b8]"><a href="" class="flex items-center gap-2 bg-[#0066b8]"><img src="../img/header-download.svg" alt="" class="h-[16px] w-[16px]">Download</a></li>
+                    </ul>
+                </nav>
+
+                <div class="toggle_menu items-center flex flex-col gap-1 bg-transparent cursor-pointer">
+                    <span class="bg-white block h-[2px] w-[20px] duration-1000 ease-in"></span>
+                    <span class="bg-white block h-[2px] w-[20px] duration-1000 ease-in"></span>
+                    <span class="bg-white block h-[2px] w-[20px] duration-1000 ease-in"></span>
+                </div>
+            </div>
+                
+
+        </div>
+    </header>
+
+    <header class="bg-[#25252b] py-2">
+        <div class="container">
+            <div class="header__update text-[#ccc] mx-[4rem] text-[.9rem] text-center ">
+                <p class=""><a href="" class="text-[#0098dd] underline">Version 1.80</a> is now available! Read about the new features and fixes from June.</p>
+                </div>
+        </div>
+    </header>
+
+    <section class="banner bg-[#2c2c32] pt-4 flex justify-center text-center">
+        <div class="container">
+            <div class="banner__wrapper mx-[1rem]">
+                <div class="banner__home">
+                    <h1 class="text-white text-[2.5rem] font-thin mx-[1rem]">Code editing.
+                        <strong>Redefined.</strong>
+                    </h1>
+                    <div class="text-[#ccc] text-[.9rem] mb-4">
+                        <p>Free. Build on open source. Runs everywhere.</p>
+                    </div>
+                    <div class="primary__button">
+                        <div class="flex justify-center gap-[.12rem] pb-3.5">
+                            <button class="bg-[#0066b8] px-10 py-2 text-[white] font-semibold">
+                                Download for Windows
+                                <p class="text-[.7rem] font-thin">Stable Build</p>
+                            </button>
+                            <button class="bg-[#0066b8] px-3 text-white"><i class="fa-solid fa-chevron-down"></i></button>
+                        </div>
+                        <div class="platform relative bg-[#25252b] mx-[4.6rem] rounded-lg py-2 text-[.7rem] text-[#ccc] mb-3">
+                            <p class="">
+                                <a href="" class="text-[#0098dd]">Web</a>,
+                                <a href="" class="text-[#0098dd]">Insiders edition</a>, or
+                                <a href="" class="text-[#0098dd]">other platforms</a>
+                            </p>
+                        </div>
+                        <div class="text-[#ccc] mx-[7.5rem] text-[.7rem] pb-5">
+                            <p>
+                                By using VS Code, you agree to its
+                                <a href="" class="text-[#0098dd]">license and privacy statement.</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="banner__screen">
+                        <img src="../img/banner-homescreen.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="value">
+        <div class="container">
+            <div class="value__wrapper mx-[1rem]">
+                <div class="value__props">
+                    <div class="grid grid-cols-2 py-[1rem]">
+                        <div class="flex justify-center py-5 bg-gray-400">
+                            <a href="">
+                                <div class="flex justify-center">
+                                    <i class="fa-regular fa-lightbulb items-center text-[3rem] mb-3"></i>
+                                </div>
+                            IntelliSense
+                            </a>
+                        </div>
+                        <div class="flex justify-center py-5">
+                            <a href="">
+                                <div class="flex justify-center">
+                                    <i class="fa-regular fa-lightbulb items-center text-[3rem] mb-3"></i>
+                                </div>
+                            IntelliSense
+                            </a>
+                        </div>
+                        <div class="flex justify-center py-5">
+                            <a href="">
+                                <div class="flex justify-center">
+                                    <i class="fa-regular fa-lightbulb items-center text-[3rem] mb-3"></i>
+                                </div>
+                            IntelliSense
+                            </a>
+                        </div>
+                        <div class="flex justify-center py-5">
+                            <a href="">
+                                <div class="flex justify-center">
+                                    <i class="fa-regular fa-lightbulb items-center text-[3rem] mb-3"></i>
+                                </div>
+                            IntelliSense
+                            </a>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review bg-[#f5f5f5]">
+        <div class="container">
+            <div class="review__wrapper mx-[5rem] py-[5rem]">
+                <div class="review__tweet">
+                    <div class="flex gap-2 mb-5">
+                        <img src="../img/tweet-1.jpg" alt="" class="h-[4rem] rounded-full">
+                        <div>
+                            <div class="flex items-center gap-[10rem]">
+                                <h6 class="font-bold text-[.8rem]">Jonathan</h6>
+                                <i class="fa-brands fa-twitter text-[.8rem] text-[#dededf]"></i>
+                            </div>
+                            <p class="text-[.7rem]">@jadbox</p>
+                            <p class="text-[.8rem] max-w-[80%]">VS Code will have deep remote development. You can connect to    a container running a different OS and use any VS Code plugins,    linting, debugging for that environment. 🔥🔥🔥</p>
+                            </div>
+                    </div>
+                    <div class="flex gap-2 mb-5">
+                        <img src="../img/tweet-1.jpg" alt="" class="h-[4rem] rounded-full">
+                        <div>
+                            <div class="flex items-center gap-[10rem]">
+                                <h6 class="font-bold text-[.8rem]">Jonathan</h6>
+                                <i class="fa-brands fa-twitter text-[.8rem] text-[#dededf]"></i>
+                            </div>
+                            <p class="text-[.7rem]">@jadbox</p>
+                            <p class="text-[.8rem] max-w-[80%]">VS Code will have deep remote development. You can connect to    a container running a different OS and use any VS Code plugins,    linting, debugging for that environment. 🔥🔥🔥</p>
+                            </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="../img/tweet-1.jpg" alt="" class="h-[4rem] rounded-full">
+                        <div>
+                            <div class="flex items-center gap-[10rem]">
+                                <h6 class="font-bold text-[.8rem]">Jonathan</h6>
+                                <i class="fa-brands fa-twitter text-[.8rem] text-[#dededf]"></i>
+                            </div>
+                            <p class="text-[.7rem]">@jadbox</p>
+                            <p class="text-[.8rem] max-w-[80%]">VS Code will have deep remote development. You can connect to    a container running a different OS and use any VS Code plugins,    linting, debugging for that environment. 🔥🔥🔥</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="use">
+                <div class="use__item">
+                    <div class="use__context">
+                        <img src="../img/service-1.svg" alt="">
+                        <div class="use__text">
+                            <h2>Meet InterlliSense.</h2>
+                        <p>Go beyond syntax highlighting and autocomplete   with IntelliSense, which provides smart completions   based on variable types, function definitions, and    imported modules.</p>
+                        </div>
+                    </div>
+                    <div class="use__context">
+                        <img src="../img/service-3.svg" alt="">
+                        <div class="use__text">
+                            <h2>Print statement debugging is a thing of the past.</h2>
+                        <p>Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+                        </div>
+                    </div>
+                    <div class="use__context">
+                        <img src="../img/service-2.svg" alt="">
+                        <div class="use__text">
+                            <h2>Git commands built-in.</h2>
+                        <p>Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+                        </div>
+                    </div>
+                    <div class="use__context">
+                        <img src="../img/service-5.png" alt="" class="hover:scale-110 duration-1000 cursor-pointer">
+                        <div class="use__text">
+                            <h2>Extensible and customizable.</h2>
+                        <p>Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <a href="" class="text-[#0098dd] hover:underline">Learn more about extensions.</a></p>
+                        </div>
+                    </div>
+                    <div class="use__context">
+                        <img src="../img/service-4.svg" alt="">
+                        <div class="use__text">
+                            <h2>Deploy with confidence and ease</h2>
+                        <p>With <a href="" class="text-[#0098dd] hover:underline">Microsoft Azure</a> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, <a href="" class="text-[#0098dd] hover:underline">all from within VS Code.</a></p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="language bg-[#f5f5f5]">
+        <div class="container">
+            <div class="language__wrapper mx-[1rem] pb-10">
+                <div class="language__header flex justify-center py-10 text-[1.2rem]">
+                    <h2>VS Code for</h2>
+                </div>
+                <div class="language__list grid grid-cols-2 pb-2">
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/javascript.svg" alt="">
+                        <p class="text-[.9rem]">JavaScript</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/python.svg" alt="">
+                        <p class="text-[.9rem]">Python</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/java.svg" alt="">
+                        <p class="text-[.9rem]">Java</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/markdown.svg" alt="">
+                        <p class="text-[.9rem]">Markdown</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/typescript.svg" alt="">
+                        <p class="text-[.9rem]">TypeScript</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/cpp.svg" alt="">
+                        <p class="text-[.9rem]">C/C++</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/json.svg" alt="">
+                        <p class="text-[.9rem]">JSON</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/powershell.svg" alt="">
+                        <p class="text-[.9rem]">Powershell</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/html.svg" alt="">
+                        <p class="text-[.9rem]">HTML/CSS</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/csharp.svg" alt="">
+                        <p class="text-[.9rem]">C#</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/php.svg" alt="">
+                        <p class="text-[.9rem]">PHP</p>
+                    </div>
+                    <div class="flex gap-2 py-2">
+                        <img src="../img/yaml.svg" alt="">
+                        <p class="text-[.9rem]">YAML</p>
+                    </div>
+                </div>
+                <div class="flex justify-center text-[.9rem]">
+                    <p class="text-[#0071bc]">
+                        <a href="" class="hover:underline">and many more languages on the Marketplace...</a>
+                    </p>
+                </div>
+                <div class="flex justify-center py-10">
+                    <div class="bg-[#0066b8] px-10 text-center inline-block py-4 text-[white] font-semibold">
+                        <a href="">Get Started Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download">
+        <div class="container">
+            <div class="download__wrapper mx-[1rem] py-[3rem]">
+                <div class="download__list">
+                    <div class="flex justify-center pt-4">
+                        <img src="../img/windows-logo.png" alt="" class="h-[6rem]">
+                    </div>
+                    <div class="flex justify-center py-4">
+                        <div class="bg-[#0066b8] px-[3.4rem] text-center gap-2 py-2 text-[white] font-semibold">
+                            <button class="flex items-center gap-4 text-[1rem]">
+                                <img src="../img/header-download.svg" alt="" class="h-[1rem]">Windows
+                            </button>
+                            <small class="text-[.6rem]">Windows 8, 10, 11</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-2 gap-[.3rem] items-center">
+                            <div class="flex justify-end mr-[.7rem]">
+                                <h2>User Installer</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x64</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm32</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm64</a>
+                            </div>
+                            <div class="flex justify-end">
+                                <h2>System Installer</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x64</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x86</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm64</a>
+                            </div>
+                            <div class="flex justify-end mr-[3rem]">
+                                <h2>.zip</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x64</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x86</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm64</a>
+                            </div>
+                            <div class="flex justify-end mr-[3rem]">
+                                <h2>CLI</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x64</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x86</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm64</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="download__list">
+                    <div class="flex justify-center pt-4">
+                        <img src="../img/linux-logo.png" alt="" class="h-[6rem]">
+                    </div>
+                    <div class="flex justify-center items-center gap-1 py-4">
+                        <div class="bg-[#0066b8] px-[2rem] text-center gap-2 py-2 text-[white] font-semibold">
+                            <button class="flex items-center gap-4 text-[1rem]">
+                                <img src="../img/header-download.svg" alt="" class="h-[1rem]">.deb
+                            </button>
+                            <small class="text-[.6rem]">Debian, Ubuntu</small>
+                        </div>
+                        <div class="bg-[#0066b8] px-[2rem] text-center py-2 text-[white] font-semibold">
+                            <button class="flex items-center gap-4 text-[1rem]">
+                                <img src="../img/header-download.svg" alt="" class="h-[1rem]">.rpm
+                            </button>
+                            <small class="text-[.6rem]">Red Hat, Fedora</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-2 gap-[.3rem] mr-[3rem] items-center">
+                            <div class="flex justify-end">
+                                <h2>.deb</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x64</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm32</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm64</a>
+                            </div>
+                            <div class="flex justify-end">
+                                <h2>.rpm</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x64</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm32</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm64</a>
+                            </div>
+                            <div class="flex justify-end">
+                                <h2>.tar.gz</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x64</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm32</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm64</a>
+                            </div>
+                            <div class="flex justify-end">
+                                <h2>Snap</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Snap Store</a>
+                            </div>
+                            <div class="flex justify-end">
+                                <h2>CLI</h2>
+                            </div>
+                            <div>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">x64</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm32</a>
+                                <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Arm64</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="download__list">
+                    <div class="flex justify-center pt-4">
+                        <img src="../img/apple-logo.svg" alt="" class="h-[6rem]">
+                    </div>
+                    <div class="flex justify-center py-4">
+                        <div class="bg-[#0066b8] px-[5rem] text-center gap-2 py-2 text-[white] font-semibold">
+                            <button class="flex items-center gap-4 text-[1rem]">
+                                <img src="../img/header-download.svg" alt="" class="h-[1rem]">Mac
+                            </button>
+                            <small class="text-[.6rem]">macOS 10.11+</small>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex flex-col">
+                            <div class="flex gap-1 justify-center">
+                                <h2>.zip</h2>
+                                <div>
+                                    <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Intel chip</a>
+                                    <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Apple Silicon</a>
+                                    <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Universal</a>
+                                </div>
+                            </div>
+                            <div class="flex gap-1 justify-center mr-[3.4rem]">
+                                <h2>CLI</h2>
+                                <div>
+                                    <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Intel chip</a>
+                                    <a href="" class="bg-[#0066b8] text-[.7rem] p-[.1rem] rounded-sm text-white">Apple Silicon</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="container">
+            <div class="feature__row">
+                <div>
+                    <h2>Want new features sooner?</h2>
+                    <p>Get the <a href="">Insiders build</a> instead.</p>
+                </div>
+                <div>
+                    <h2>Use <a href="">vscode.dev</a> for quick edits online!</h2>
+                    <p>Github, Azure Repos, and local files</p>
+                </div>
+            </div>
+            <div class="feature__license">
+                <div>
+                    <h3>license and Privacy Terms</h3>
+                    <p>By downloading and using Visual Studio Code, you agree to the <a href="">license terms</a> and <a href="">privacy statement.</a> VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <a href="">How to Disable Crash Reporting</a> to learn how to disable it.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div>
+                    <ul>
+                        <li>Hello from Seattle.</li>
+                        <li><a href="">Follow @code</a></li>
+                        <li><i class="fa-brands fa-github"></i>Star 148,224</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Term of Use</a></li>
+                        <li><a href="">License</a></li>
+                    </ul>
+                    <div class="copyright">
+                        <a href=""><img src="../img/microsoft-logo.png" alt=""></a>
+                        <span>© 2023 Microsoft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
